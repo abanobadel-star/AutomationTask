@@ -128,8 +128,7 @@ public class HomePage extends PageBase {
         Select select_minutes=new Select(minutes);
         minutes.click();
         select_minutes.selectByVisibleText("0");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         tweet_button.click();
     }
-
 }
